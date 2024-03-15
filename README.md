@@ -1,5 +1,5 @@
 # RobotyUiPath
- Wszystkie roboty jakie udało mi się do tej pory stworzyć - od najprostszych do bardziej zaawansowanych
+ Portfolio prezentujące moje dotychczasowe projekty dotyczące automatyzacji RPA; zarowno prostsze prace jak i te bardziej zaawansowane
 
 ## Pogodynka
 
