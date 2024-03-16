@@ -113,4 +113,4 @@ Używając pętli *While* zapętlam czynność. Przy użyciu *TypeInto* wskazuj�
 Robot zrealizowany w celu ukończenia wyzwania automatyzacji, które polegało na wprowadzeniu danych z pliku xlsx w pola, które za każdym razem zmieniały swoją pozycję na ekranie, 50 etapów, 350 pól.
 Certyfikat ukończenia dostępny pod tym linkiem: [Certyfikat](https://www.theautomationchallenge.com/certificate/1710590709558x600910155729135000)
 
-Użyta solucja: *TryCatch*, która pozwoliła na ponownie zlokalizowanie obiektu.
+Użyta solucja: *TryCatch*, która pozwoliła na ponowne zlokalizowanie obiektu.
