@@ -49,3 +49,37 @@ Ta sekcja odpowiada za logikę całej automatyzacji, na podstawie zapisanego kod
 ![](images/Dispaly.png)
 
 Koniec, funkcja odpowiadająca za zwrócenie informacji użytkownikowi.
+
+## DataCapturing
+Automatyzacja na podstawie bazy danych Klientów *customers*, robot pobiera dane z pliku i następnie dodaje je w aplikacji webowej CRM (https://www.theautomationchallenge.com/crm) oraz desktopowej.
+
+**1. Main**
+
+![](images/dt_main.png)
+
+Za pomocą *Parallel* łącze dwa workflows co pozwala na uruchomienie obu automatyzacji.
+
+**2. WebDataCapturing**
+
+![](images/dt_readusedo.png)
+
+W tej części automatyzowana jest wersja webowa aplikacji, za pomocą *ReadRange* pobieram dane z pliku, następnie wybieram przeglądarke i ustanawiam URL. 
+W dalszej części używam *ForEachRow* i tworzę zmienną.
+
+![](images/dt_bodytype.png)
+
+Używając *TypeInto* wskazuje miejsca, w jakie mają być wpisane poszczególne dane z bazy, wszystko konwertuje do *String* aby uniknąć błędu.
+
+![](images/dt_ifgender.png)
+
+Przy użyciu *If*, robot sprawdza, czy w kolumnie nr 2 "gender" jest słowo *Female*, na podstawie tego dokonuje wyboru i przy użyciu *Click* wybiera odpowiednią opcję.
+
+![](images/dt_typestate.png)
+
+Za pomocą kolejnych *TypeInto* i *SelectItem* wskazuję pola do wpisania prawidłowych danych oraz zajmuję się rozsuwaną listą.
+
+![](images/dt_typeclicklog)
+
+*TypeInto*, *Click*, *LogMessage* - kolejne miejsca do wpisania danych, na zakończenie robot finalizuje czynność dodając rekord do CRM i wysyła do logów poniższą informację.
+
+![](images/dt_logoutput.png)
