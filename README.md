@@ -1,5 +1,6 @@
 # RobotyUiPath
  Portfolio prezentujące moje dotychczasowe projekty dotyczące automatyzacji RPA; zarowno prostsze prace jak i te bardziej zaawansowane
+ Opis każdego robota znajduje się poniżej.
 
 ## Pogodynka
 
