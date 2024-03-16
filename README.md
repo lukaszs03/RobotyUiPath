@@ -108,4 +108,9 @@ Używając pętli *While* zapętlam czynność. Przy użyciu *TypeInto* wskazuj�
 
 ![](images/dt_logoutput.png)
 
+##Rupert
 
+Robot zrealizowany w celu ukończenia wyzwania automatyzacji, które polegało na wprowadzeniu danych z pliku xlsx w pola, które za każdym razem zmieniały swoją pozycję na ekranie, 50 etapów, 350 pól.
+Certyfikat ukończenia dostępny pod tym linkiem: [Certyfikat](https://www.theautomationchallenge.com/profile/%C5%82ukasz-1710590709558x600910155729135000)
+
+Użyta solucja: *TryCatch*, która pozwoliła na ponownie zlokalizowanie obiektu.
