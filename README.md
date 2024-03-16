@@ -78,8 +78,34 @@ Przy użyciu *If*, robot sprawdza, czy w kolumnie nr 2 "gender" jest słowo *Fem
 
 Za pomocą kolejnych *TypeInto* i *SelectItem* wskazuję pola do wpisania prawidłowych danych oraz zajmuję się rozsuwaną listą.
 
-![](images/dt_typeclicklog)
+![](images/dt_typeclicklog.png)
 
 *TypeInto*, *Click*, *LogMessage* - kolejne miejsca do wpisania danych, na zakończenie robot finalizuje czynność dodając rekord do CRM i wysyła do logów poniższą informację.
 
 ![](images/dt_logoutput.png)
+
+**3. WebDataCapturing**
+
+![](images/dtdesktop_readuse.png)
+
+W tej części automatyzowana jest wersja desktopowa aplikacji, za pomocą *ReadRange* pobieram dane z pliku, następnie wybieram apke z jakiej mam skorzystać. 
+
+![](images/dtdesktop_dowhile.png)
+
+Używając pętli *While* zapętlam czynność. Przy użyciu *TypeInto* wskazuję miejsca do wpisywania danych.
+
+![](images/dt_desktopif.png)
+
+*If* - wybór odpowiedniej opcji.
+
+![](images/dt_save.png)
+
+*Type*, *Click* - wprowadza i zapisuje dane.
+
+![](images/dt_logassign.png)
+
+*LogMessage*, *Assign* - zapisuje poniższą informację do outputu i dodaję +1 do rekordu, aby mógł przejść do kolejnych wartości.
+
+![](images/dt_logoutput.png)
+
+
