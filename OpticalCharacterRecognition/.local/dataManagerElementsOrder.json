@@ -1,0 +1,28 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ListOfDates&Sequence_2",
+        "ExtractedDate&Sequence_2",
+        "EightDigits&Sequence_2",
+        "ExtractedTrxID&Sequence_2",
+        "ExtractedReceiptID&Sequence_2",
+        "AllPDFText&Sequence_2",
+        "ScrapedTotal&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
