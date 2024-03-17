@@ -114,3 +114,15 @@ Robot zrealizowany w celu ukończenia wyzwania automatyzacji, które polegało n
 Certyfikat ukończenia dostępny pod tym linkiem: [Certyfikat](https://www.theautomationchallenge.com/certificate/1710590709558x600910155729135000)
 
 Użyta solucja: *TryCatch*, która pozwoliła na ponowne zlokalizowanie obiektu.
+
+## RealEstateScraping
+
+..
+
+## PDFDataScraping
+
+..
+
+## OCR - OpticalCharacterRecognition
+
+..
