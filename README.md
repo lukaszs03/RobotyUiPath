@@ -117,12 +117,18 @@ Użyta solucja: *TryCatch*, która pozwoliła na ponowne zlokalizowanie obiektu.
 
 ## RealEstateScraping
 
-..
+Robot, który pobiera wskazane mu dane ze strony z ogłoszeniami sprzedaży nieruchomości, następnie wybiera lokalizację, sortowanie domów.
+Dane zapisywane są do pliku xlsx.
 
 ## PDFDataScraping
 
-..
+Za jego pomocą "przeskakujemy" 1000 plików pdf, pobieramy z nich odpowiednie dane i zapisujemy do pliku xlsx - skuteczne np. do ogromnej ilości faktur. 
+W prosty sposób jesteśmy w stanie przedstawić ogromną ilość danych na arkuszu.
 
 ## OCR - OpticalCharacterRecognition
 
-..
+Zdecydowanie jedna z trudniejszych automatyzacji, dzięki Cloud Vision API od Google pobieramy dane ze zeskanowanych plików pdf (takich, które nie mają możliwości zlokalizowania elementów UI), następnie lokalizujemy je poprzez *regex* i zapisujemy do zmiennych..
+W tym przypadku nic dalej się nie dzieje z danymi, nie wprowadziłem do niego zapisywania do arkusza z powodu ogromnej ilości danych na typie dokumentu (rachunku za paliwo).
+
+**Uwaga!**
+Robot nie będzie działał bez klucza API, jeśli chcesz go przetestować najpierw zdobądź własny klucz API ze strony [Klik](https://console.cloud.google.com/).
